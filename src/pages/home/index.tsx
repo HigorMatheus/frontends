@@ -50,6 +50,7 @@ export function Home() {
         style={{
           width: dimensions.width - RFValue(32),
           marginBottom: RFValue(16),
+          marginTop: RFValue(16),
         }}
         renderItem={({ item }) => (
           <ItemList>
